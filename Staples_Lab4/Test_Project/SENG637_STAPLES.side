@@ -1,0 +1,1293 @@
+{
+  "id": "d3c35627-59bc-4a4e-8d1c-097bfceed493",
+  "version": "2.0",
+  "name": "SENG637_STAPLES",
+  "url": "https://www.staples.ca/",
+  "tests": [{
+    "id": "910fb198-130f-44f1-b335-35a5039506e5",
+    "name": "StaplesLogin",
+    "commands": [{
+      "id": "bb5b3f17-4ac6-4631-878f-6d03ed86ae1f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bda49dfa-75c6-47af-8aa5-dbbac6b5b421",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "763x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7eb3ca41-0e67-4b6c-b097-dd50d79c2655",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__link-list-item .icon--sign-in",
+      "targets": [
+        ["css=.header__link-list-item .icon--sign-in", "css:finder"],
+        ["xpath=//header[@id='header']/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87a98d83-07cb-4cfc-a5e6-10fd6d61fea8",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_email",
+      "targets": [
+        ["id=customer_email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#customer_email", "css:finder"],
+        ["xpath=//input[@id='customer_email']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0dc46b4-d0c7-4867-a7ec-fda17bbfa4c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer_email",
+      "targets": [
+        ["id=customer_email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#customer_email", "css:finder"],
+        ["xpath=//input[@id='customer_email']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "aadharsh.hariharan@gmail.com"
+    }, {
+      "id": "ffbfaf2a-1a1a-4718-8e7a-de4c70755553",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_password",
+      "targets": [
+        ["id=customer_password", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#customer_password", "css:finder"],
+        ["xpath=//input[@id='customer_password']", "xpath:attributes"],
+        ["xpath=//div[@id='show-password-container']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe984a38-766a-4d04-9f3b-e4cbd6812545",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer_password",
+      "targets": [
+        ["id=customer_password", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#customer_password", "css:finder"],
+        ["xpath=//input[@id='customer_password']", "xpath:attributes"],
+        ["xpath=//div[@id='show-password-container']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "12appu34"
+    }, {
+      "id": "4589ee4c-d982-446c-94a1-9566bdf04723",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--button",
+      "targets": [
+        ["css=.button--button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e526558a-407f-4e76-80eb-142a41139a29",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_email",
+      "targets": [
+        ["id=customer_email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#customer_email", "css:finder"],
+        ["xpath=//input[@id='customer_email']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "486a4489-3c2e-4b66-9c46-8ecc8abd4cba",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer_email",
+      "targets": [
+        ["id=customer_email", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#customer_email", "css:finder"],
+        ["xpath=//input[@id='customer_email']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "aadharsh.hariharan@outlook.com"
+    }, {
+      "id": "3ab31805-f2e7-4e5a-965f-8e78adf63657",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jss4",
+      "targets": [
+        ["css=.jss4", "css:finder"],
+        ["xpath=(//input[@value=''])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='show-password-container']/div/label/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b22fe066-ba58-48f5-be2a-9f1c9c4dd066",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer_password",
+      "targets": [
+        ["id=customer_password", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#customer_password", "css:finder"],
+        ["xpath=//input[@id='customer_password']", "xpath:attributes"],
+        ["xpath=//div[@id='show-password-container']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "12appu34"
+    }, {
+      "id": "c301f222-8e75-4492-9299-9312ebb4bdd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss4",
+      "targets": [
+        ["css=.jss4", "css:finder"],
+        ["xpath=(//input[@value=''])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='show-password-container']/div/label/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f478bad4-8afa-4756-9f98-16560df72f26",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jss4",
+      "targets": [
+        ["css=.jss4", "css:finder"],
+        ["xpath=(//input[@value=''])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='show-password-container']/div/label/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "318899cf-d133-4885-80ff-18e7139dd3b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--button",
+      "targets": [
+        ["css=.button--button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='customer_login']/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f78688f0-4435-4826-91f8-21ca87f8152d",
+    "name": "StaplesSearch",
+    "commands": [{
+      "id": "f243d3b7-6f9c-420d-b27c-1fce7b3b09c1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.staples.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "384f1190-e465-47e0-8603-aec191fbb50d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "645x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6df918b2-9005-4a92-94b7-4da2cbc58c66",
+      "comment": "",
+      "command": "click",
+      "target": "id=algoliasearch-searchbar-input",
+      "targets": [
+        ["id=algoliasearch-searchbar-input", "id"],
+        ["css=#algoliasearch-searchbar-input", "css:finder"],
+        ["xpath=//input[@id='algoliasearch-searchbar-input']", "xpath:attributes"],
+        ["xpath=//div[@id='algolia-header-searchbar-redirect']/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7486914a-e0c0-41cb-816f-06aa51f10e7b",
+      "comment": "",
+      "command": "type",
+      "target": "id=algoliasearch-searchbar-input",
+      "targets": [
+        ["id=algoliasearch-searchbar-input", "id"],
+        ["css=#algoliasearch-searchbar-input", "css:finder"],
+        ["xpath=//input[@id='algoliasearch-searchbar-input']", "xpath:attributes"],
+        ["xpath=//div[@id='algolia-header-searchbar-redirect']/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "External Hardrives"
+    }, {
+      "id": "6da4e39e-a19b-466c-b956-3d0b85feb791",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=algoliasearch-searchbar-input",
+      "targets": [
+        ["id=algoliasearch-searchbar-input", "id"],
+        ["css=#algoliasearch-searchbar-input", "css:finder"],
+        ["xpath=//input[@id='algoliasearch-searchbar-input']", "xpath:attributes"],
+        ["xpath=//div[@id='algolia-header-searchbar-redirect']/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "73b4419b-5694-4724-96c8-0fb39555160d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Mui-selected > .MuiTab-wrapper",
+      "targets": [
+        ["css=.Mui-selected > .MuiTab-wrapper", "css:finder"],
+        ["xpath=//div[@id='algoliasearch-container']/div/div/div/div/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Product Results')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75881d79-8b33-4f3e-9a03-5ce917eedc1b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,496.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f77b5c5a-575f-4481-a8a8-d19d927b6082",
+      "comment": "",
+      "command": "click",
+      "target": "id=body-search",
+      "targets": [
+        ["id=body-search", "id"],
+        ["css=#body-search", "css:finder"],
+        ["xpath=//body[@id='body-search']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d78a4ee6-94c1-495e-a229-06a104d994be",
+      "comment": "",
+      "command": "type",
+      "target": "id=algoliasearch-searchbar-input",
+      "targets": [
+        ["id=algoliasearch-searchbar-input", "id"],
+        ["css=#algoliasearch-searchbar-input", "css:finder"],
+        ["xpath=//input[@id='algoliasearch-searchbar-input']", "xpath:attributes"],
+        ["xpath=//div[@id='algolia-header-searchbar']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Pencil"
+    }, {
+      "id": "0ee68962-9c70-42a2-bb08-9776bf4cd706",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=algoliasearch-searchbar-input",
+      "targets": [
+        ["id=algoliasearch-searchbar-input", "id"],
+        ["css=#algoliasearch-searchbar-input", "css:finder"],
+        ["xpath=//input[@id='algoliasearch-searchbar-input']", "xpath:attributes"],
+        ["xpath=//div[@id='algolia-header-searchbar']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e41390f5-a036-466e-87d3-f625f7a0c13e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,690.5)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3de8bb87-cf2a-4800-bd66-c035ee2a9a7d",
+    "name": "StaplesAddingProductToCart",
+    "commands": [{
+      "id": "7fb811db-1643-48cd-9e9c-e4c80d7d3d11",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.staples.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caeec653-97e9-4065-aafe-d02f8ea7242c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "645x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba713d0b-7167-4f8b-8b49-69f966d5456d",
+      "comment": "",
+      "command": "click",
+      "target": "id=algoliasearch-searchbar-input",
+      "targets": [
+        ["id=algoliasearch-searchbar-input", "id"],
+        ["css=#algoliasearch-searchbar-input", "css:finder"],
+        ["xpath=//input[@id='algoliasearch-searchbar-input']", "xpath:attributes"],
+        ["xpath=//div[@id='algolia-header-searchbar-redirect']/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b8ff9d-17bf-4a46-8b6c-7d68e90e97e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-0 > span",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 > span", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'external hardrives')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af2b8034-a44c-4979-9898-5a9ad120c215",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Seagate One Touch 2TB USB 3.2 Gen 1 External Hard Drive - Red",
+      "targets": [
+        ["linkText=Seagate One Touch 2TB USB 3.2 Gen 1 External Hard Drive - Red", "linkText"],
+        ["css=.ais-hits--item:nth-child(1) .product-thumbnail__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Seagate One Touch 2TB USB 3.2 Gen 1 External Hard Drive - Red')]", "xpath:link"],
+        ["xpath=//div[@id='alogolia-index-tabpanel-0']/div/div[2]/div[3]/div/div/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/products/3001541-en-seagate-one-touch-2tb-usb-32-gen-1-external-hard-drive-red')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Seagate One Touch 2TB USB 3.2 Gen 1 External Hard Drive - Red')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abdf8d78-d816-4a00-a12f-d855c0bce432",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,625.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "accfc3cf-fc9a-43d5-a1ff-f375de3c4fe3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1129)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fb0e97e-5350-4b08-9310-39b22df5086d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1495.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4f9b953-e29e-4963-ab2b-1cc5816c5e8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fbt__footer-button",
+      "targets": [
+        ["css=.fbt__footer-button", "css:finder"],
+        ["xpath=//div[@id='product-page-component-container']/div[2]/div/div[2]/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dcfe2f6-82f3-49f7-9dfa-19bff8b5f126",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2388.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28c31671-744a-42fe-ac38-171f4a1638b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-cart-ctas__view-cart",
+      "targets": [
+        ["css=.modal-cart-ctas__view-cart", "css:finder"],
+        ["xpath=//a[contains(text(),'View Cart')]", "xpath:link"],
+        ["xpath=//body[@id='body-seagate-one-touch-2tb-usb-3-2-gen-1-external-hard-drive-red']/div[15]/div/div/footer/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cart')])[3]", "xpath:href"],
+        ["xpath=//footer/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "892ac420-6ec2-4e55-a160-ef68fa135f6c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,610)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf9c3f5e-6e01-4a14-8dc3-709b9c303ba8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,988)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "048dce44-90ce-41f7-8f48-b0cc7121a271",
+    "name": "StaplesModifyingItemQuantityInCart",
+    "commands": [{
+      "id": "6ce2962f-3c53-49ad-85ab-60d6c0d5756e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.staples.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3981dbb-8d87-4639-a8ee-d3474e0a373f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "645x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba29d8f2-c15d-4ad8-965f-e751cfe5526b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-counter__total--with-mobile-icon",
+      "targets": [
+        ["css=.cart-counter__total--with-mobile-icon", "css:finder"],
+        ["xpath=//header[@id='header']/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e189f6d8-e5b7-4da8-b58a-a25dacc1675e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,197)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10ca04d2-b581-4f3e-aaf7-2c22060b29c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .col-8 .ext-quantity__button:nth-child(3)",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-8 .ext-quantity__button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='shopify-section-cart']/div[2]/div/div[2]/div/div[4]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf37aaae-8ca3-4230-b511-63b08c8cf6e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .col-8 .ext-quantity__button:nth-child(3)",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-8 .ext-quantity__button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='shopify-section-cart']/div[2]/div/div[2]/div/div[4]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e2a594d-23c7-477c-bb42-9b577bd6a63e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,977)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c25996fc-d33b-4f51-a1ee-cbe99c6a5998",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) .ext-quantity__button:nth-child(1)",
+      "targets": [
+        ["css=.row:nth-child(3) .ext-quantity__button:nth-child(1)", "css:finder"],
+        ["xpath=//span[@value='4']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-cart']/div[2]/div[3]/div[2]/div/div[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[4]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "658ca048-4d15-4340-8d50-e3a27e7c75cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) .ext-quantity__button:nth-child(1)",
+      "targets": [
+        ["css=.row:nth-child(3) .ext-quantity__button:nth-child(1)", "css:finder"],
+        ["xpath=(//span[@value='3'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-cart']/div[2]/div[3]/div[2]/div/div[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[4]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90629ad6-a64d-4b48-b32e-a16a2b03f7b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) .ext-quantity__button:nth-child(1)",
+      "targets": [
+        ["css=.row:nth-child(3) .ext-quantity__button:nth-child(1)", "css:finder"],
+        ["xpath=//span[@value='2']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-cart']/div[2]/div[3]/div[2]/div/div[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[4]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0c16a9a-e7d9-4b4a-9abd-6da65ceed2ae",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca9e8e57-f4c5-4f7e-b70e-be25365c91cb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dc0cd458-14ae-4164-9509-dbeec833b9ac",
+    "name": "StaplesRemovingProductFromCart",
+    "commands": [{
+      "id": "b5bf9aa7-ed28-4533-b537-8523f773c06a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.staples.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6516046c-5873-43f2-ac9e-ef82c835d058",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "645x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "644532bc-e87d-485a-af7e-788a8d617579",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-counter__total--with-mobile-icon",
+      "targets": [
+        ["css=.cart-counter__total--with-mobile-icon", "css:finder"],
+        ["xpath=//header[@id='header']/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34b7e5c0-695c-4736-aca3-b135f03088dc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,198.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f7c2bc2-b915-4177-b2f3-5534aeedbe20",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Remove Item",
+      "targets": [
+        ["linkText=Remove Item", "linkText"],
+        ["css=.row:nth-child(1) > .col-8 .cart__item-remove > .d-block:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Remove Item')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-cart']/div[2]/div/div[2]/div/div[7]/div/a", "xpath:idRelative"],
+        ["xpath=//div[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Remove Item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b20bc25-5197-45ea-b136-43cbd8b5dcc5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Remove Item",
+      "targets": [
+        ["linkText=Remove Item", "linkText"],
+        ["css=.row:nth-child(1) > .col-8 .cart__item-remove > .d-block:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Remove Item')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-cart']/div[2]/div/div[2]/div/div[7]/div/a", "xpath:idRelative"],
+        ["xpath=//div[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Remove Item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "299557b6-4b75-4e14-92a7-4c33f9e9ff64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Remove Item",
+      "targets": [
+        ["linkText=Remove Item", "linkText"],
+        ["css=.row:nth-child(1) > .col-8 .cart__item-remove > .d-block:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Remove Item')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-cart']/div[2]/div/div[2]/div/div[7]/div/a", "xpath:idRelative"],
+        ["xpath=//div[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Remove Item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efcf60b6-f382-4bc0-a202-24a4a4b3ecbd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Remove Item",
+      "targets": [
+        ["linkText=Remove Item", "linkText"],
+        ["css=.cart-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Remove Item')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-cart']/div[2]/div/div[2]/div/div[7]/div/a", "xpath:idRelative"],
+        ["xpath=//div[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Remove Item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "906ee174-db0a-4e91-b703-b3b0db6ea40f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart__title",
+      "targets": [
+        ["css=.cart__title", "css:finder"],
+        ["xpath=//div[@id='cart-page-v2']/form/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Your Cart: 0 Item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9cb1f9e6-f9a0-4209-b099-1f30e11051d8",
+    "name": "StaplesPageNavigationBasedOnProduct",
+    "commands": [{
+      "id": "08fbb222-a7f4-402b-a28d-83c9687a740e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.staples.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "253053e1-3aae-480b-84b3-d5271f4047dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "769x811",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5d3e372-9410-42e1-90e7-89d87049e980",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile-megamenu",
+      "targets": [
+        ["id=mobile-megamenu", "id"],
+        ["css=#mobile-megamenu", "css:finder"],
+        ["xpath=//span[@id='mobile-megamenu']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf3dd219-3cd3-458c-b51d-0f455553daa7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.submit-button-mobile > .justify-self-end",
+      "targets": [
+        ["css=.submit-button-mobile > .justify-self-end", "css:finder"],
+        ["xpath=//div[@id='algolia-header-searchbar-redirect']/div/div/form/div/div/button[2]/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3ef3f00-bd23-4fed-a612-7884d64345a9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.submit-button-mobile > .justify-self-end",
+      "targets": [
+        ["css=.submit-button-mobile > .justify-self-end", "css:finder"],
+        ["xpath=//div[@id='algolia-header-searchbar-redirect']/div/div/form/div/div/button[2]/div", "xpath:idRelative"],
+        ["xpath=//button[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9382f491-cc15-4b13-aff8-4840b98e0778",
+      "comment": "",
+      "command": "click",
+      "target": "id=accessible-megamenu-nav-item-Shop",
+      "targets": [
+        ["id=accessible-megamenu-nav-item-Shop", "id"],
+        ["css=#accessible-megamenu-nav-item-Shop", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop')]", "xpath:link"],
+        ["xpath=//a[@id='accessible-megamenu-nav-item-Shop']", "xpath:attributes"],
+        ["xpath=//ol[@id='accessible-megamenu-main']/li/span/a", "xpath:idRelative"],
+        ["xpath=//span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47b3602e-ae30-4b71-8598-287c59ceff01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shop-tab__link:nth-child(8) .shoptab-linktext",
+      "targets": [
+        ["css=.shop-tab__link:nth-child(8) .shoptab-linktext", "css:finder"],
+        ["xpath=//ol[@id='shop-tabs-list']/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf6191d-e217-4f5c-91be-9c2e6bf2c714",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accessible-megamenu-panel-group--shop-content__column:nth-child(4) li:nth-child(3) .shoptab-linktext",
+      "targets": [
+        ["css=.accessible-megamenu-panel-group--shop-content__column:nth-child(4) li:nth-child(3) .shoptab-linktext", "css:finder"],
+        ["xpath=//ol[@id='shop-tabs']/li[2]/div/ol[3]/ol/div/div/li[3]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//ol[3]/ol/div/div/li[3]/a/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cell Phone Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24336539-b799-4a62-9e16-7d4a2ad9e717",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "602f2a92-0a28-42f8-8623-217b2d7edf17",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Portable Power Banks",
+      "targets": [
+        ["linkText=Portable Power Banks", "linkText"],
+        ["css=.col-sm-6:nth-child(13) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Portable Power Banks')]", "xpath:link"],
+        ["xpath=//div[@id='collection-banner']/div[2]/div/div[13]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/portable-power-banks-7398')]", "xpath:href"],
+        ["xpath=//div[13]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Portable Power Banks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ebf4662-26ac-4705-81b0-3bb818b6e2e3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c4a051e5-d93f-4caf-be55-c98e94573098",
+    "name": "StaplesProductCheckoutFromCartAndPayment",
+    "commands": [{
+      "id": "a22ed84b-42e8-4c31-84b3-7c27a51ff0c6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.staples.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1588ac1-11d2-4df2-a1cd-8dd2e644923f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "769x811",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5064a168-2cda-4dfb-a0b9-6ad4101f4b8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-counter__total--with-mobile-icon",
+      "targets": [
+        ["css=.cart-counter__total--with-mobile-icon", "css:finder"],
+        ["xpath=//header[@id='header']/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db4265c7-0b00-43ab-9373-a67846474642",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,134.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f223d5f-de55-41e0-b3d1-d19c5bdc828d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=checkout",
+      "targets": [
+        ["name=checkout", "name"],
+        ["css=.button--checkout", "css:finder"],
+        ["xpath=//input[@name='checkout']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-order-summary']/section/div[2]/table/tfoot/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "015399f8-5d30-4592-b4f3-7205781f3bff",
+      "comment": "",
+      "command": "click",
+      "target": "name=checkout",
+      "targets": [
+        ["name=checkout", "name"],
+        ["css=.button--checkout", "css:finder"],
+        ["xpath=//input[@name='checkout']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-order-summary']/section/div[2]/table/tfoot/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90019a9b-da93-4478-bb89-1b4c1c8e9e8b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "edf2b73a-8be5-489e-8c8c-fcb20dbbe13d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Accordian:nth-child(3) .Icon--chevron-down",
+      "targets": [
+        ["css=.Accordian:nth-child(3) .Icon--chevron-down", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/header/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/header/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb201ed6-b883-46dd-a1e3-882d8005ca6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Grid__Column:nth-child(1) .RadioButton__Radio",
+      "targets": [
+        ["css=.Grid__Column:nth-child(1) .RadioButton__Radio", "css:finder"],
+        ["xpath=//input[@type='radio']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7539e40-9f35-45de-8f9a-4f307c12f6bc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Grid__Column:nth-child(1) .RadioButton__Radio",
+      "targets": [
+        ["css=.Grid__Column:nth-child(1) .RadioButton__Radio", "css:finder"],
+        ["xpath=//input[@type='radio']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab44d71-3af1-42ba-b2d9-9ae7be0a5951",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Grid__Column:nth-child(1) .RadioButton__Radio",
+      "targets": [
+        ["css=.Grid__Column:nth-child(1) .RadioButton__Radio", "css:finder"],
+        ["xpath=//input[@type='radio']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ad95813-1ea5-4746-b7c2-ab9b62d345f4",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "198da085-e433-417c-bae2-aa1f2d76c9c9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,237.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f7a4bd7-45e2-4232-8573-4114105cb40f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div[4]/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8af6344-8748-44f0-a4fc-7806388b38fb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "21f8ab04-4588-4796-b0b9-0d2bf732d3f1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe64cf80-4585-47cb-93c8-2733d4a2a4f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=monerisDataInput",
+      "targets": [
+        ["id=monerisDataInput", "id"],
+        ["name=cardnumber", "name"],
+        ["css=#monerisDataInput", "css:finder"],
+        ["xpath=//input[@id='monerisDataInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "608d206b-1c55-4dd6-90ec-f174af92faf0",
+      "comment": "",
+      "command": "type",
+      "target": "id=monerisDataInput",
+      "targets": [
+        ["id=monerisDataInput", "id"],
+        ["name=cardnumber", "name"],
+        ["css=#monerisDataInput", "css:finder"],
+        ["xpath=//input[@id='monerisDataInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1234567899012"
+    }, {
+      "id": "dff182b2-eba6-4fa8-b258-a27f153a8678",
+      "comment": "",
+      "command": "click",
+      "target": "id=monerisExpInput",
+      "targets": [
+        ["id=monerisExpInput", "id"],
+        ["name=exp-date", "name"],
+        ["css=#monerisExpInput", "css:finder"],
+        ["xpath=//input[@id='monerisExpInput']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4a58697-962d-47f6-a913-ba2c4c0ac3db",
+      "comment": "",
+      "command": "type",
+      "target": "id=monerisExpInput",
+      "targets": [
+        ["id=monerisExpInput", "id"],
+        ["name=exp-date", "name"],
+        ["css=#monerisExpInput", "css:finder"],
+        ["xpath=//input[@id='monerisExpInput']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1225"
+    }, {
+      "id": "1893b0db-3f79-4135-b4a0-745c48c14793",
+      "comment": "",
+      "command": "click",
+      "target": "id=monerisCVDInput",
+      "targets": [
+        ["id=monerisCVDInput", "id"],
+        ["name=cvc", "name"],
+        ["css=#monerisCVDInput", "css:finder"],
+        ["xpath=//input[@id='monerisCVDInput']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2336271-6bea-412d-827a-a307261f4ce5",
+      "comment": "",
+      "command": "type",
+      "target": "id=monerisCVDInput",
+      "targets": [
+        ["id=monerisCVDInput", "id"],
+        ["name=cvc", "name"],
+        ["css=#monerisCVDInput", "css:finder"],
+        ["xpath=//input[@id='monerisCVDInput']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "000"
+    }, {
+      "id": "576215eb-af9c-4a52-ae35-55b2c25240da",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "36ec003e-6084-4ff3-9d34-2b5de54e29c3",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ad02036-5f8a-469e-8070-d5d8e85d7a40",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing-field-firstName",
+      "targets": [
+        ["id=billing-field-firstName", "id"],
+        ["name=first_name", "name"],
+        ["css=#billing-field-firstName", "css:finder"],
+        ["xpath=//input[@id='billing-field-firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "812e0cd4-5456-4c39-b364-bc3099afdec0",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing-field-firstName",
+      "targets": [
+        ["id=billing-field-firstName", "id"],
+        ["name=first_name", "name"],
+        ["css=#billing-field-firstName", "css:finder"],
+        ["xpath=//input[@id='billing-field-firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "SENG"
+    }, {
+      "id": "bebcafce-288e-4944-983e-98ebe9b6d321",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing-field-lastName",
+      "targets": [
+        ["id=billing-field-lastName", "id"],
+        ["name=last_name", "name"],
+        ["css=#billing-field-lastName", "css:finder"],
+        ["xpath=//input[@id='billing-field-lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "637"
+    }, {
+      "id": "f9618106-0ac2-4959-8ed9-384537cd4e9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing-field-address",
+      "targets": [
+        ["id=billing-field-address", "id"],
+        ["name=address", "name"],
+        ["css=#billing-field-address", "css:finder"],
+        ["xpath=//input[@id='billing-field-address']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db40f7a7-b155-4000-a9db-93701572fd35",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing-field-address",
+      "targets": [
+        ["id=billing-field-address", "id"],
+        ["name=address", "name"],
+        ["css=#billing-field-address", "css:finder"],
+        ["xpath=//input[@id='billing-field-address']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "University of Calgary, Calgary"
+    }, {
+      "id": "a7a63274-2ba9-41a9-8122-0b1b762871c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing-field-city",
+      "targets": [
+        ["id=billing-field-city", "id"],
+        ["name=city", "name"],
+        ["css=#billing-field-city", "css:finder"],
+        ["xpath=//input[@id='billing-field-city']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c468540b-0f0a-4d33-bc7f-4e370ace88fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing-field-city",
+      "targets": [
+        ["id=billing-field-city", "id"],
+        ["name=city", "name"],
+        ["css=#billing-field-city", "css:finder"],
+        ["xpath=//input[@id='billing-field-city']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "Calgary"
+    }, {
+      "id": "083e1391-c12b-46c3-a5f9-7f16e8504380",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing-field-provinceCode",
+      "targets": [
+        ["id=billing-field-provinceCode", "id"],
+        ["name=province_code", "name"],
+        ["css=#billing-field-provinceCode", "css:finder"],
+        ["xpath=//select[@id='billing-field-provinceCode']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a41e330-6f51-4b15-88bb-8a783fcc2aa6",
+      "comment": "",
+      "command": "select",
+      "target": "id=billing-field-provinceCode",
+      "targets": [],
+      "value": "label=Alberta"
+    }, {
+      "id": "e5ca376e-adb6-44f1-b5b4-fcb49fd9eef2",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing-field-postalCode",
+      "targets": [
+        ["id=billing-field-postalCode", "id"],
+        ["name=postal_code", "name"],
+        ["css=#billing-field-postalCode", "css:finder"],
+        ["xpath=//input[@id='billing-field-postalCode']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e1e1a32-8656-491f-a68d-cf2997784e39",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing-field-postalCode",
+      "targets": [
+        ["id=billing-field-postalCode", "id"],
+        ["name=postal_code", "name"],
+        ["css=#billing-field-postalCode", "css:finder"],
+        ["xpath=//input[@id='billing-field-postalCode']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/input", "xpath:position"]
+      ],
+      "value": "T30000"
+    }, {
+      "id": "5aafee2f-9879-4944-b4ba-9f717a12d49b",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing-field-phone",
+      "targets": [
+        ["id=billing-field-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#billing-field-phone", "css:finder"],
+        ["xpath=//input[@id='billing-field-phone']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14bbe6bf-886c-4c78-88cd-46bd49cd6054",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing-field-phone",
+      "targets": [
+        ["id=billing-field-phone", "id"],
+        ["name=phone", "name"],
+        ["css=#billing-field-phone", "css:finder"],
+        ["xpath=//input[@id='billing-field-phone']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[6]/div[2]/section/div[2]/div/div[2]/div[2]/section/div[2]/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/input", "xpath:position"]
+      ],
+      "value": "1234567890"
+    }, {
+      "id": "a3e1e465-1ab3-4cf5-829f-6f110e2e5d22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div/div/div/div[3]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "18a3a017-80b8-4eb2-bc65-b42f00abbeb4",
+    "name": "StaplesLogout",
+    "commands": [{
+      "id": "54ee9690-37c7-4d42-868e-dece9d01b772",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.staples.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89c15948-1c89-4d2b-867a-4635fa760c12",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1153x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "918350a6-a670-46bc-9b5d-b333e74dbfa9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My Account",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16e0c58f-edcf-4beb-87ab-fd2e25c36a02",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log out",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["css=.account-drop-down__panel > .header__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//div[@id='account-drop-down__tab']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/logout')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "935d94ba-3f50-4837-8fb6-2e1219860a3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-link--border:nth-child(2)",
+      "targets": [
+        ["css=.text-link--border:nth-child(2)", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ecf399b-1f84-457a-9599-60d8eb395e48",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0fc9a26a-ae68-4b62-93a4-3e92e0b8c27a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["910fb198-130f-44f1-b335-35a5039506e5"]
+  }],
+  "urls": ["https://www.staples.ca/"],
+  "plugins": []
+}

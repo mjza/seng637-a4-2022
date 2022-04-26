@@ -1,0 +1,538 @@
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreUpperBoundNaNInRange2, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreUpperBoundNaNInRange2, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutstderr  : ator] detected = SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 79 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreUpperBoundNaNInRange1, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregostderr  : r.mutators.VoidMethodCallMutator], filename=RangeTests.java, block=4, lineNumber=180, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method shouldIgnoreUpperBoundNaNInRange1
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for shouldIgnoreUpperBoundNaNInRange1
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 13 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[6], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detectestderr  : d = SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 117 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[23], mutator=org.pitest.mutationtest.enginstderr  : e.gregor.mutators.MathMutator], filename=Range.java, block=4, lineNumber=368, description=Replaced double addition with subtraction, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stdout  : The testing of the class Range has been started.stdout  : 
+stderr  : 4:12:36 PM PIT >> FINE : mutating method shift
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for shift
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreUpperBoundNaNInRange1, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreUpperBoundNaNInRange1, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutstderr  : ator] detected = SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 89 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=noNaNValuesInRange, methodDesc=()V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.Voidstderr  : MethodCallMutator], filename=RangeTests.java, block=1, lineNumber=148, description=removed call to org/junit/Assert::assertFalse, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method noNaNValuesInRange
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for noNaNValuesInRange
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 12 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 19 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutatostderr  : r] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 54 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=max, methodDesc=(DD)D], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator], fstderr  : ilename=Range.java, block=5, lineNumber=285, description=replaced double return with 0.0d for org/jfree/data/Range::max, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method max
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for max
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=noNaNValuesInRange, methodDesc=()V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=noNaNValuesInRange, methodDesc=()V], indexes=[11], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] detected stderr  : = SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 56 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeWithLBGreaterThanUB, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutatorstderr  : s.VoidMethodCallMutator], filename=RangeTests.java, block=1, lineNumber=111, description=removed call to org/junit/Assert::assertFalse, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 13 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stderr  : 4:12:36 PM PIT >> FINE : mutating method rangeWithLBGreaterThanUB
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for rangeWithLBGreaterThanUB
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 14 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=max, methodDesc=(DD)D], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=max, methodDesc=(DD)D], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] detected = KILLED by [org.jfrestderr  : e.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 86 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[34], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnVastderr  : lsMutator], filename=Range.java, block=6, lineNumber=161, description=replaced boolean return with false for org/jfree/data/Range::intersects, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method intersects
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for intersects
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeWithLBGreaterThanUB, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeWithLBGreaterThanUB, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] detstderr  : ected = SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 88 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=setUpBeforeClass, methodDesc=()V], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMetstderr  : hodCallMutator], filename=RangeTests.java, block=0, lineNumber=28, description=removed call to java/io/PrintStream::println, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 13 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stderr  : 4:12:36 PM PIT >> FINE : mutating method setUpBeforeClass
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for setUpBeforeClass
+stdout  : The testing of the class Range has been started.stdout  : 
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 14 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[34], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator] detected = KILLEDstderr  :  by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 57 ms.
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[34], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[20], mutator=org.pitest.mutationtstderr  : est.engine.gregor.mutators.NegateConditionalsMutator], filename=Range.java, block=4, lineNumber=305, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method expandToInclude
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for expandToInclude
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 14 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=setUpBeforeClass, methodDesc=()V], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=setUpBeforeClass, methodDesc=()V], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] detected = Sstderr  : URVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 61 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeIntersectionShouldBeTrue2, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mstderr  : utators.VoidMethodCallMutator], filename=RangeTests.java, block=1, lineNumber=93, description=removed call to org/junit/Assert::assertTrue, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method rangeIntersectionShouldBeTrue2
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for rangeIntersectionShouldBeTrue2
+stdout  : The testing of the class Range has been started.stdout  : 
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 13 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutators.Nstderr  : egateConditionalsMutator] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 49 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateCostderr  : nditionalsMutator], filename=Range.java, block=4, lineNumber=433, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method equals
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for equals
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 16 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeIntersectionShouldBeTrue2, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeIntersectionShouldBeTrue2, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatostderr  : r] detected = SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 59 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreNaNInRange1, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutatorsstderr  : .VoidMethodCallMutator], filename=RangeTests.java, block=4, lineNumber=204, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stdout  : The testing of the class Range has been started.stdout  : 
+stderr  : 4:12:36 PM PIT >> FINE : mutating method shouldIgnoreNaNInRange1
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for shouldIgnoreNaNInRange1
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[36], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected stderr  : = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.teststderr  : .RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.teststderr  : .RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 49 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateCstderr  : onditionalsMutator], filename=Range.java, block=3, lineNumber=390, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method shiftWithNoZeroCrossing
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for shiftWithNoZeroCrossing
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 14 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 15 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreNaNInRange1, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreNaNInRange1, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] detestderr  : cted = SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 63 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldReturnNullAsResult, methodDesc=()V], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutatorstderr  : s.VoidMethodCallMutator], filename=RangeTests.java, block=3, lineNumber=210, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method shouldReturnNullAsResult
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for shouldReturnNullAsResult
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 23 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detectedstderr  :  = KILLED by [org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 98 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[38], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValstderr  : sMutator], filename=Range.java, block=7, lineNumber=161, description=replaced boolean return with true for org/jfree/data/Range::intersects, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method intersects
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for intersects
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 16 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldReturnNullAsResult, methodDesc=()V], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldReturnNullAsResult, methodDesc=()V], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] detstderr  : ected = SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 95 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreNaNInRange2, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutatorsstderr  : .VoidMethodCallMutator], filename=RangeTests.java, block=4, lineNumber=198, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method shouldIgnoreNaNInRange2
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for shouldIgnoreNaNInRange2
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[38], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[38], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator] detected = KILLED stderr  : by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 61 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[9], mutator=org.pitest.mutationtest.enginestderr  : .gregor.mutators.NegateConditionalsMutator], filename=Range.java, block=1, lineNumber=366, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method shift
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for shift
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 17 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 17 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreNaNInRange2, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shouldIgnoreNaNInRange2, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] detestderr  : cted = SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 45 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=bothRangesNull, methodDesc=()V], indexes=[8], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethostderr  : dCallMutator], filename=RangeTests.java, block=1, lineNumber=240, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method bothRangesNull
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for bothRangesNull
+stdout  : The testing of the class Range has been started.stdout  : 
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateCondistderr  : tionalsMutator] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 46 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[4], mutator=org.pitest.mutationtestderr  : st.engine.gregor.mutators.NegateConditionalsMutator], filename=Range.java, block=0, lineNumber=302, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : mutating method expandToInclude
+stderr  : 4:12:36 PM PIT >> FINE : 1 relevant test for expandToInclude
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 18 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=bothRangesNull, methodDesc=()V], indexes=[8], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=bothRangesNull, methodDesc=()V], indexes=[8], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] detected = SURstderr  : VIVED
+stderr  : 4:12:36 PM PIT >> FINE : processed mutation in 38 ms.
+stderr  : 4:12:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeIntersectionShouldBeTrue1, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mstderr  : utators.VoidMethodCallMutator], filename=RangeTests.java, block=1, lineNumber=87, description=removed call to org/junit/Assert::assertTrue, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:36 PM PIT >> FINE : replaced class with mutant in 14 ms
+stderr  : 4:12:36 PM PIT >> FINE : Running 1 units
+stderr  : 4:12:37 PM PIT >> FINE : mutating method rangeIntersectionShouldBeTrue1
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for rangeIntersectionShouldBeTrue1
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 18 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[4], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[4], mutator=org.pitest.mutationtest.engine.gregor.mutators.Nestderr  : gateConditionalsMutator] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 67 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[20], mutastderr  : tor=org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator], filename=Range.java, block=5, lineNumber=245, description=replaced return value with null for org/jfree/data/Range::combineIgnoringNaN, testsInOrder=[org.jfree.data.test.RangeTests]stderr  : , isInFinallyBlock=false, poison=NORMAL]
+stdout  : The testing of the class Range has been started.stdout  : 
+stderr  : 4:12:37 PM PIT >> FINE : mutating method combineIgnoringNaN
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for combineIgnoringNaN
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeIntersectionShouldBeTrue1, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeIntersectionShouldBeTrue1, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutatostderr  : r] detected = SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 58 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeLowerBoundEqualShouldBeTrue, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregorstderr  : .mutators.VoidMethodCallMutator], filename=RangeTests.java, block=1, lineNumber=99, description=removed call to org/junit/Assert::assertTrue, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method rangeLowerBoundEqualShouldBeTrue
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for rangeLowerBoundEqualShouldBeTrue
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 50 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 17 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[20], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.NullReturnValsMutator] detected = KILLED by [org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 83 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[77], mutastderr  : tor=org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator], filename=Range.java, block=23, lineNumber=258, description=replaced return value with null for org/jfree/data/Range::combineIgnoringNaN, testsInOrder=[org.jfree.data.test.RangeTestsstderr  : ], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method combineIgnoringNaN
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for combineIgnoringNaN
+stdout  : The testing of the class Range has been started.
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 12 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeLowerBoundEqualShouldBeTrue, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=rangeLowerBoundEqualShouldBeTrue, methodDesc=()V], indexes=[13], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutastderr  : tor] detected = SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 94 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shiftTowardsNegativeScaleByCrossingZero, methodDesc=()V], indexes=[18], mutator=org.pitest.mutationtest.enginestderr  : .gregor.mutators.VoidMethodCallMutator], filename=RangeTests.java, block=2, lineNumber=277, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stdout  : The testing of the class Range has been started.stderr  : 4:12:37 PM PIT >> FINE : mutating method shiftTowardsNegativeScaleByCrossingZero
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for shiftTowardsNegativeScaleByCrossingZero
+stdout  : 
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[77], mutator=org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[77], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.NullReturnValsMutator] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTesstderr  : ts, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 41 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[30], mutastderr  : tor=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Range.java, block=8, lineNumber=248, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method combineIgnoringNaN
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for combineIgnoringNaN
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 28 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 19 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shiftTowardsNegativeScaleByCrossingZero, methodDesc=()V], indexes=[18], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.RangeTests, method=shiftTowardsNegativeScaleByCrossingZero, methodDesc=()V], indexes=[18], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCstderr  : allMutator] detected = SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 58 ms.
+4:12:37 PM PIT >> FINE : Exit code was - OK
+4:12:37 PM PIT >> FINE : Minion exited ok
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[30], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+4:12:37 PM PIT >> FINE : processed mutation in 86 ms.
+4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=Mustderr  : tationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Range.java, block=1, lineNumber=158, descriptstderr  : ion=changed conditional boundary, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+4:12:37 PM PIT >> FINE : mutating method intersects
+4:12:37 PM PIT >> FINE : 1 relevant test for intersects
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[30], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stdout  : The testing of the class Range has been started.
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 19 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[14], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detected = SURVIVEDstderr  : 
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 77 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMustderr  : tator], filename=Range.java, block=5, lineNumber=161, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method intersects
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for intersects
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 14 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[32], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by stderr  : [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 34 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[46], mutator=org.pitest.mutationtstderr  : est.engine.gregor.mutators.NullReturnValsMutator], filename=Range.java, block=12, lineNumber=309, description=replaced return value with null for org/jfree/data/Range::expandToInclude, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, stderr  : poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method expandToInclude
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for expandToInclude
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 13 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutators.Nstderr  : ullReturnValsMutator] detected = KILLED by [org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 67 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMustderr  : tator], filename=Range.java, block=4, lineNumber=161, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method intersects
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for intersects
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 15 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by stderr  : [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 50 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[37], mutator=org.pitest.mutationtstderr  : est.engine.gregor.mutators.NegateConditionalsMutator], filename=Range.java, block=9, lineNumber=308, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method expandToInclude
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for expandToInclude
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 12 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutators.Nstderr  : egateConditionalsMutator] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 36 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[37], mutator=org.pitest.mutationtstderr  : est.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Range.java, block=9, lineNumber=308, description=changed conditional boundary, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method expandToInclude
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for expandToInclude
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 18 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutators.Cstderr  : onditionalsBoundaryMutator] detected = SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 40 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=<init>, methodDesc=(DD)V], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutatostderr  : r], filename=Range.java, block=1, lineNumber=90, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method <init>
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for <init>
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 15 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=<init>, methodDesc=(DD)V], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=<init>, methodDesc=(DD)V], indexes=[10], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by [orgstderr  : .jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, orgstderr  : .jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, orgstderr  : .jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, orgstderr  : .jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, orgstderr  : .jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 29 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=min, methodDesc=(DD)D], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator],stderr  :  filename=Range.java, block=4, lineNumber=274, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method min
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for min
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 13 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=min, methodDesc=(DD)D], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by [org.jf4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=min, methodDesc=(DD)D], indexes=[15], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : ree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 49 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=isNaNRange, methodDesc=()Z], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMstderr  : utator], filename=Range.java, block=5, lineNumber=448, description=replaced boolean return with true for org/jfree/data/Range::isNaNRange, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method isNaNRange
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for isNaNRange
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 15 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=isNaNRange, methodDesc=()Z], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=isNaNRange, methodDesc=()Z], indexes=[16], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator] detected = KILLED bystderr  :  [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 49 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[20], mutator=org.pitest.mutationtstderr  : est.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=Range.java, block=4, lineNumber=305, description=changed conditional boundary, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method expandToInclude
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for expandToInclude
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 14 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[20], mutator=org.pitest.mutationtest.engine.gregor.mutators.Cstderr  : onditionalsBoundaryMutator] detected = SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 34 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.Conditistderr  : onalsBoundaryMutator], filename=Range.java, block=3, lineNumber=390, description=changed conditional boundary, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method shiftWithNoZeroCrossing
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for shiftWithNoZeroCrossing
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 23 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] detectstderr  : ed = SURVIVED
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 77 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[25], mutastderr  : tor=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=Range.java, block=6, lineNumber=247, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method combineIgnoringNaN
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for combineIgnoringNaN
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 26 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[25], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=combineIgnoringNaN, methodDesc=(Lorg/jfree/data/Range;Lorg/jfree/data/Range;)Lorg/jfree/data/Range;], indexes=[25], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.Rangstderr  : eTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 46 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=max, methodDesc=(DD)D], indexes=[26], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator], fstderr  : ilename=Range.java, block=7, lineNumber=287, description=replaced double return with 0.0d for org/jfree/data/Range::max, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method max
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for max
+stderr  : 4:12:37 PM PIT >> FINE : replaced class with mutant in 11 ms
+stderr  : 4:12:37 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=max, methodDesc=(DD)D], indexes=[26], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=max, methodDesc=(DD)D], indexes=[26], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] detected = KILLED by [org.jfrestderr  : e.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:37 PM PIT >> FINE : processed mutation in 60 ms.
+stderr  : 4:12:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.Primitistderr  : veReturnsMutator], filename=Range.java, block=5, lineNumber=391, description=replaced double return with 0.0d for org/jfree/data/Range::shiftWithNoZeroCrossing, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:37 PM PIT >> FINE : mutating method shiftWithNoZeroCrossing
+stderr  : 4:12:37 PM PIT >> FINE : 1 relevant test for shiftWithNoZeroCrossing
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 12 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shiftWithNoZeroCrossing, methodDesc=(DD)D], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] detected =stderr  :  KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 52 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConstderr  : ditionalsMutator], filename=Range.java, block=0, lineNumber=426, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method equals
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for equals
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 13 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected =stderr  :  KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.stderr  : RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.stderr  : RangeTests, org.jfree.data.test.RangeTests]
+4:12:38 PM PIT >> FINE : processed mutation in 31 ms.
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[5], mutator=org.pitest.mutationtest.enginestderr  : .gregor.mutators.VoidMethodCallMutator], filename=Range.java, block=0, lineNumber=365, description=removed call to org/jfree/chart/util/ParamChecks::nullNotPermitted, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method shift
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for shift
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 16 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCstderr  : allMutator] detected = SURVIVED
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 52 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[29], mutator=org.pitest.mutationtstderr  : est.engine.gregor.mutators.NullReturnValsMutator], filename=Range.java, block=7, lineNumber=306, description=replaced return value with null for org/jfree/data/Range::expandToInclude, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, pstderr  : oison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method expandToInclude
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for expandToInclude
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 17 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=expandToInclude, methodDesc=(Lorg/jfree/data/Range;D)Lorg/jfree/data/Range;], indexes=[29], mutator=org.pitest.mutationtest.engine.gregor.mutators.Nstderr  : ullReturnValsMutator] detected = KILLED by [org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 36 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutstderr  : ator], filename=Range.java, block=0, lineNumber=157, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method intersects
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for intersects
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 13 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=intersects, methodDesc=(DD)Z], indexes=[7], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by [stderr  : org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 31 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=max, methodDesc=(DD)D], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], stderr  : filename=Range.java, block=1, lineNumber=281, description=negated conditional, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method max
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for max
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 16 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=max, methodDesc=(DD)D], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=max, methodDesc=(DD)D], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] detected = KILLED by [org.jfrstderr  : ee.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 38 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=min, methodDesc=(DD)D], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator], fstderr  : ilename=Range.java, block=5, lineNumber=275, description=replaced double return with 0.0d for org/jfree/data/Range::min, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method min
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for min
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 13 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=min, methodDesc=(DD)D], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=min, methodDesc=(DD)D], indexes=[19], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] detected = KILLED by [org.jfrestderr  : e.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 30 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[17], mutator=org.pitest.mutationtest.enginstderr  : e.gregor.mutators.MathMutator], filename=Range.java, block=3, lineNumber=367, description=Replaced double addition with subtraction, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method shift
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for shift
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 14 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[17], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[17], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutatostderr  : r] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 75 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[54], mutator=org.pitest.mutationtest.enginstderr  : e.gregor.mutators.NullReturnValsMutator], filename=Range.java, block=11, lineNumber=371, description=replaced return value with null for org/jfree/data/Range::shift, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method shift
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for shift
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 21 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[54], mutator=org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=shift, methodDesc=(Lorg/jfree/data/Range;DZ)Lorg/jfree/data/Range;], indexes=[54], mutator=org.pitest.mutationtest.engine.gregor.mutators.NullReturnstderr  : ValsMutator] detected = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 58 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=isNaNRange, methodDesc=()Z], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsstderr  : Mutator], filename=Range.java, block=4, lineNumber=448, description=replaced boolean return with false for org/jfree/data/Range::isNaNRange, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method isNaNRange
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for isNaNRange
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 12 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=isNaNRange, methodDesc=()Z], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=isNaNRange, methodDesc=()Z], indexes=[12], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator] detected = KILLED bstderr  : y [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 29 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[45], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanFstderr  : alseReturnValsMutator], filename=Range.java, block=6, lineNumber=436, description=replaced boolean return with false for org/jfree/data/Range::equals, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method equals
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for equals
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 14 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[45], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=equals, methodDesc=(Ljava/lang/Object;)Z], indexes=[45], mutator=org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator] detecstderr  : ted = KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.stderr  : test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.stderr  : test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 44 ms.
+stderr  : 4:12:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=getLowerBound, methodDesc=()D], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutastderr  : tor], filename=Range.java, block=0, lineNumber=105, description=replaced double return with 0.0d for org/jfree/data/Range::getLowerBound, testsInOrder=[org.jfree.data.test.RangeTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 4:12:38 PM PIT >> FINE : mutating method getLowerBound
+stderr  : 4:12:38 PM PIT >> FINE : 1 relevant test for getLowerBound
+stderr  : 4:12:38 PM PIT >> FINE : replaced class with mutant in 15 ms
+stderr  : 4:12:38 PM PIT >> FINE : Running 1 units
+stdout  : The testing of the class Range has been started.stdout  : 
+4:12:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=getLowerBound, methodDesc=()D], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] KILLED by [org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.Range, method=getLowerBound, methodDesc=()D], indexes=[5], mutator=org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator] detected = KILLED by [ostderr  : rg.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, ostderr  : rg.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests, org.jfree.data.test.RangeTests]
+stderr  : 4:12:38 PM PIT >> FINE : processed mutation in 35 ms.
+4:12:38 PM PIT >> FINE : Exit code was - OK
+4:12:38 PM PIT >> FINE : Minion exited ok
+4:12:54 PM PIT >> INFO : Completed in 54 seconds
+================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator
+>> Generated 2469 Killed 3 (0%)
+> KILLED 3 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2466 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsMutator
+>> Generated 336 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 336 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 1945 Killed 1 (0%)
+> KILLED 1 SURVIVED 8 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 1936 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator
+>> Generated 468 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 468 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator
+>> Generated 8551 Killed 0 (0%)
+> KILLED 0 SURVIVED 39 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 8512 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator
+>> Generated 2515 Killed 9 (0%)
+> KILLED 9 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2506 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.InvertNegsMutator
+>> Generated 130 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 130 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.MathMutator
+>> Generated 5597 Killed 4 (0%)
+> KILLED 4 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 5593 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator
+>> Generated 1102 Killed 4 (0%)
+> KILLED 4 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 1098 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 10593 Killed 28 (0%)
+> KILLED 28 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 10565 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator
+>> Generated 1416 Killed 10 (1%)
+> KILLED 10 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 1406 
+--------------------------------------------------------------------------------
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : 1 seconds
+> build mutation tests : 24 seconds
+> run mutation analysis : 23 seconds
+--------------------------------------------------------------------------------
+> Total  : 49 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 35122 mutations Killed 59 (0%)
+>> Ran 2419 tests (0.07 tests per mutation)

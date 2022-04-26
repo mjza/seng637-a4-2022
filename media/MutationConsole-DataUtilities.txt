@@ -1,0 +1,594 @@
+stderr  : 10:06:33 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=dArray2DArray, methodDesc=([[D)[[Ljava/lang/Double;], indexes=[65], mutator=org.pitest.mutationtest.estderr  : ngine.gregor.mutators.ConditionalsBoundaryMutator], filename=DataUtilitiesTests.java, block=6, lineNumber=906, description=changed conditional boundary, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:33 PM PIT >> FINE : mutating method dArray2DArray
+stderr  : 10:06:33 PM PIT >> FINE : 1 relevant test for dArray2DArray
+10:06:33 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[62], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:33 PM PIT >> FINE : replaced class with mutant in 30 ms
+stderr  : 10:06:33 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+10:06:33 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=dArray2DArray, methodDesc=([[D)[[Ljava/lang/Double;], indexes=[65], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:33 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=dArray2DArray, methodDesc=([[D)[[Ljava/lang/Double;], indexes=[65], mutator=org.pitest.mutationtest.engine.gregor.mutators.Conditstderr  : ionalsBoundaryMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:33 PM PIT >> FINE : processed mutation in 78 ms.
+stderr  : 10:06:33 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoPositiveValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtestderr  : st.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=101, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMstderr  : AL]
+stderr  : 10:06:33 PM PIT >> FINE : mutating method calculateColumnTotalForTwoPositiveValues
+stderr  : 10:06:33 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForTwoPositiveValues
+stderr  : 10:06:34 PM PIT >> FINE : replaced class with mutant in 38 ms
+stderr  : 10:06:34 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+10:06:34 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoPositiveValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:34 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoPositiveValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.Vostderr  : idMethodCallMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+10:06:34 PM PIT >> FINE : processed mutation in 62 ms.
+stderr  : 10:06:34 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[38], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=5, lineNumber=645, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMstderr  : AL]
+stderr  : 10:06:34 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:34 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+stderr  : 10:06:34 PM PIT >> FINE : replaced class with mutant in 26 ms
+stderr  : 10:06:34 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:34 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[38], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+10:06:34 PM PIT >> FINE : processed mutation in 90 ms.
+stderr  : 10:06:34 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[90], mutator=org.pitest.mutastderr  : tiontest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=13, lineNumber=584, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, pstderr  : oison=NORMAL]
+stderr  : 10:06:34 PM PIT >> FINE : mutating method createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:34 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleColumnDoubleArray
+10:06:34 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[38], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:34 PM PIT >> FINE : replaced class with mutant in 34 ms
+stderr  : 10:06:34 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:34 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[90], mutator=org.pitest.mutationtest.engine.gregor.mutatstderr  : ors.VoidMethodCallMutator] detected = SURVIVED
+10:06:34 PM PIT >> FINE : processed mutation in 126 ms.
+stderr  : 10:06:34 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForEmptyDoubleArray, methodDesc=()V], indexes=[28], mutator=org.pitest.mutationtesstderr  : t.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=510, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NOstderr  : RMAL]
+stderr  : 10:06:34 PM PIT >> FINE : mutating method createNumberArray2DForEmptyDoubleArray
+stderr  : 10:06:34 PM PIT >> FINE : 1 relevant test for createNumberArray2DForEmptyDoubleArray
+stderr  : 10:06:34 PM PIT >> FINE : replaced class with mutant in 24 ms
+stderr  : 10:06:34 PM PIT >> FINE : Running 1 units
+10:06:34 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[90], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:34 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForEmptyDoubleArray, methodDesc=()V], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.Voistderr  : dMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:34 PM PIT >> FINE : processed mutation in 132 ms.
+stderr  : 10:06:34 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForSingleDoubleArray, methodDesc=()V], indexes=[30], mutator=org.pitest.mutationteststderr  : .engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=685, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORstderr  : MAL]
+stderr  : 10:06:34 PM PIT >> FINE : mutating method createNumberArrayForSingleDoubleArray
+stderr  : 10:06:34 PM PIT >> FINE : 1 relevant test for createNumberArrayForSingleDoubleArray
+stderr  : 10:06:34 PM PIT >> FINE : replaced class with mutant in 41 ms
+stderr  : 10:06:34 PM PIT >> FINE : Running 1 units
+10:06:34 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForEmptyDoubleArray, methodDesc=()V], indexes=[28], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:34 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForSingleDoubleArray, methodDesc=()V], indexes=[30], mutator=org.pitest.mutationtest.engine.gregor.mutators.Voidstderr  : MethodCallMutator] detected = SURVIVED
+10:06:34 PM PIT >> FINE : processed mutation in 285 ms.
+stderr  : 10:06:34 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[30], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=641, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMstderr  : AL]
+stderr  : 10:06:34 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:34 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+stderr  : 10:06:34 PM PIT >> FINE : replaced class with mutant in 29 ms
+stderr  : 10:06:34 PM PIT >> FINE : Running 1 units
+10:06:34 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForSingleDoubleArray, methodDesc=()V], indexes=[30], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:34 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[30], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+stderr  : 10:06:34 PM PIT >> FINE : processed mutation in 157 ms.
+stderr  : 10:06:34 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForNullValue, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.stderr  : gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=455, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:34 PM PIT >> FINE : mutating method calculateRowTotalForNullValue
+stderr  : 10:06:34 PM PIT >> FINE : 1 relevant test for calculateRowTotalForNullValue
+stderr  : 10:06:34 PM PIT >> FINE : replaced class with mutant in 34 ms
+stderr  : 10:06:34 PM PIT >> FINE : Running 1 units
+10:06:34 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[30], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:35 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForNullValue, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCastderr  : llMutator] detected = SURVIVED
+10:06:35 PM PIT >> FINE : processed mutation in 255 ms.
+stderr  : 10:06:35 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[37], mutator=org.pitest.mutastderr  : tiontest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=4, lineNumber=574, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, postderr  : ison=NORMAL]
+stderr  : 10:06:35 PM PIT >> FINE : mutating method createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:35 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:35 PM PIT >> FINE : replaced class with mutant in 29 ms
+stderr  : 10:06:35 PM PIT >> FINE : Running 1 units
+10:06:35 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForNullValue, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:35 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutatstderr  : ors.VoidMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:35 PM PIT >> FINE : processed mutation in 75 ms.
+stderr  : 10:06:35 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[82], mutator=org.pitest.mutatiostderr  : ntest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=11, lineNumber=552, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poisstderr  : on=NORMAL]
+stderr  : 10:06:35 PM PIT >> FINE : mutating method createNumberArray2DForSingleRowDoubleArray
+stderr  : 10:06:35 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleRowDoubleArray
+10:06:35 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[37], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:35 PM PIT >> FINE : replaced class with mutant in 32 ms
+stderr  : 10:06:35 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:35 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[82], mutator=org.pitest.mutationtest.engine.gregor.mutatorsstderr  : .VoidMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:35 PM PIT >> FINE : processed mutation in 247 ms.
+stderr  : 10:06:35 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoPositiveNegativeValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutatstderr  : iontest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=365, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poisonstderr  : =NORMAL]
+stderr  : 10:06:35 PM PIT >> FINE : mutating method calculateRowTotalForTwoPositiveNegativeValues
+stderr  : 10:06:35 PM PIT >> FINE : 1 relevant test for calculateRowTotalForTwoPositiveNegativeValues
+stderr  : 10:06:35 PM PIT >> FINE : replaced class with mutant in 39 ms
+stderr  : 10:06:35 PM PIT >> FINE : Running 1 units
+10:06:35 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[82], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:35 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoPositiveNegativeValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutatostderr  : rs.VoidMethodCallMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:35 PM PIT >> FINE : processed mutation in 160 ms.
+stderr  : 10:06:35 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[21], mutator=org.pitest.mutatiostderr  : ntest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=2, lineNumber=542, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poisostderr  : n=NORMAL]
+stderr  : 10:06:35 PM PIT >> FINE : mutating method createNumberArray2DForSingleRowDoubleArray
+stderr  : 10:06:35 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleRowDoubleArray
+10:06:35 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoPositiveNegativeValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:35 PM PIT >> FINE : replaced class with mutant in 32 ms
+stderr  : 10:06:35 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:35 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutatorsstderr  : .VoidMethodCallMutator] detected = SURVIVED
+10:06:35 PM PIT >> FINE : processed mutation in 178 ms.
+stderr  : 10:06:35 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[110], mutator=org.pitest.mutstderr  : ationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=17, lineNumber=586, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, stderr  : poison=NORMAL]
+stderr  : 10:06:35 PM PIT >> FINE : mutating method createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:35 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:35 PM PIT >> FINE : replaced class with mutant in 28 ms
+stderr  : 10:06:35 PM PIT >> FINE : Running 1 units
+10:06:35 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+10:06:35 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[110], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:35 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[110], mutator=org.pitest.mutationtest.engine.gregor.mutastderr  : tors.VoidMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:35 PM PIT >> FINE : processed mutation in 86 ms.
+stderr  : 10:06:35 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=dArray2DArray, methodDesc=([D)[Ljava/lang/Double;], indexes=[33], mutator=org.pitest.mutationtest.engstderr  : ine.gregor.mutators.NegateConditionalsMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=917, description=negated conditional, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:35 PM PIT >> FINE : mutating method dArray2DArray
+stderr  : 10:06:35 PM PIT >> FINE : 1 relevant test for dArray2DArray
+stderr  : 10:06:35 PM PIT >> FINE : replaced class with mutant in 35 ms
+stderr  : 10:06:35 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+10:06:35 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=dArray2DArray, methodDesc=([D)[Ljava/lang/Double;], indexes=[33], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:35 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=dArray2DArray, methodDesc=([D)[Ljava/lang/Double;], indexes=[33], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateCostderr  : nditionalsMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests, org.jfree.data.test.DataUtilitiesTests]
+10:06:35 PM PIT >> FINE : processed mutation in 60 ms.
+stderr  : 10:06:35 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForEmptyValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engstderr  : ine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=264, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:35 PM PIT >> FINE : mutating method calculateColumnTotalForEmptyValues
+stderr  : 10:06:35 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForEmptyValues
+stderr  : 10:06:35 PM PIT >> FINE : replaced class with mutant in 23 ms
+stderr  : 10:06:35 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:35 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForEmptyValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethstderr  : odCallMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:35 PM PIT >> FINE : processed mutation in 48 ms.
+stderr  : 10:06:35 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[46], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.NegateConditionalsMutator], filename=DataUtilitiesTests.java, block=6, lineNumber=607, description=negated conditional, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+10:06:35 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForEmptyValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:35 PM PIT >> FINE : mutating method createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:35 PM PIT >> FINE : 1 relevant test for createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:35 PM PIT >> FINE : replaced class with mutant in 40 ms
+stderr  : 10:06:35 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:35 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutators.Negatstderr  : eConditionalsMutator] detected = SURVIVED
+10:06:35 PM PIT >> FINE : processed mutation in 70 ms.
+stderr  : 10:06:35 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[78], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=15, lineNumber=650, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORstderr  : MAL]
+stderr  : 10:06:36 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+10:06:35 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 25 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[78], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[78], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+10:06:36 PM PIT >> FINE : processed mutation in 55 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[102], mutator=org.pitest.mutatistderr  : ontest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=15, lineNumber=554, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poistderr  : son=NORMAL]
+stderr  : 10:06:36 PM PIT >> FINE : mutating method createNumberArray2DForSingleRowDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleRowDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 25 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[102], mutator=org.pitest.mutationtest.engine.gregor.mutatorstderr  : s.VoidMethodCallMutator] detected = SURVIVED
+10:06:36 PM PIT >> FINE : processed mutation in 58 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[75], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=9, lineNumber=614, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMstderr  : AL]
+stderr  : 10:06:36 PM PIT >> FINE : mutating method createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for createNumberArray2DForMxNDoubleArray
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[102], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 53 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[75], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[75], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+10:06:36 PM PIT >> FINE : processed mutation in 117 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[70], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=13, lineNumber=649, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORstderr  : MAL]
+stderr  : 10:06:36 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 45 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[70], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[70], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : processed mutation in 86 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[190], mutator=org.pitest.mutstderr  : ationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=33, lineNumber=594, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, stderr  : poison=NORMAL]
+stderr  : 10:06:36 PM PIT >> FINE : mutating method createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 47 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[190], mutator=org.pitest.mutationtest.engine.gregor.mutastderr  : tors.VoidMethodCallMutator] detected = SURVIVED
+10:06:36 PM PIT >> FINE : processed mutation in 80 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForNullValue, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.enginstderr  : e.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=246, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[190], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : mutating method calculateColumnTotalForNullValue
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForNullValue
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 50 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForNullValue, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodstderr  : CallMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+10:06:36 PM PIT >> FINE : processed mutation in 99 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[131], mutator=org.pitest.mutationteststderr  : .engine.gregor.mutators.NegateConditionalsMutator], filename=DataUtilitiesTests.java, block=18, lineNumber=618, description=negated conditional, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForNullValue, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:36 PM PIT >> FINE : mutating method createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 27 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[131], mutator=org.pitest.mutationtest.engine.gregor.mutators.Negastderr  : teConditionalsMutator] detected = SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : processed mutation in 80 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=setUp, methodDesc=()V], indexes=[60], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutastderr  : tor], filename=DataUtilitiesTests.java, block=9, lineNumber=57, description=Replaced double subtraction with addition, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:36 PM PIT >> FINE : mutating method setUp
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for setUp
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[131], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 30 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=setUp, methodDesc=()V], indexes=[60], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=setUp, methodDesc=()V], indexes=[60], mutator=org.pitest.mutationtest.engine.gregor.mutators.MathMutator] detected = SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : processed mutation in 102 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[62], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=11, lineNumber=648, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORstderr  : MAL]
+stderr  : 10:06:36 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 38 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[62], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : processed mutation in 183 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[46], mutator=org.pitest.mutastderr  : tiontest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=DataUtilitiesTests.java, block=6, lineNumber=573, description=changed conditional boundary, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]stderr  : 
+stderr  : 10:06:36 PM PIT >> FINE : mutating method createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleColumnDoubleArray
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[62], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 33 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutatstderr  : ors.ConditionalsBoundaryMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+10:06:36 PM PIT >> FINE : processed mutation in 67 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoPositiveValues, methodDesc=()V], indexes=[23], mutator=org.pitest.mutationtstderr  : est.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=119, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=stderr  : NORMAL]
+stderr  : 10:06:36 PM PIT >> FINE : mutating method calculateColumnTotalForTwoPositiveValues
+stderr  : 10:06:36 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForTwoPositiveValues
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:36 PM PIT >> FINE : replaced class with mutant in 41 ms
+stderr  : 10:06:36 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+10:06:36 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoPositiveValues, methodDesc=()V], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoPositiveValues, methodDesc=()V], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.Vstderr  : oidMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:36 PM PIT >> FINE : processed mutation in 66 ms.
+stderr  : 10:06:36 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[80], mutator=org.pitest.mutastderr  : tiontest.engine.gregor.mutators.NegateConditionalsMutator], filename=DataUtilitiesTests.java, block=11, lineNumber=579, description=negated conditional, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:37 PM PIT >> FINE : mutating method createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:37 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:37 PM PIT >> FINE : replaced class with mutant in 26 ms
+stderr  : 10:06:37 PM PIT >> FINE : Running 1 units
+10:06:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[80], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[80], mutator=org.pitest.mutationtest.engine.gregor.mutatstderr  : ors.NegateConditionalsMutator] detected = SURVIVED
+10:06:37 PM PIT >> FINE : processed mutation in 119 ms.
+stderr  : 10:06:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[54], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=9, lineNumber=647, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMstderr  : AL]
+stderr  : 10:06:37 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:37 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+stderr  : 10:06:37 PM PIT >> FINE : replaced class with mutant in 38 ms
+stderr  : 10:06:37 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[54], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : processed mutation in 218 ms.
+stderr  : 10:06:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[55], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=7, lineNumber=612, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMstderr  : AL]
+stderr  : 10:06:37 PM PIT >> FINE : mutating method createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:37 PM PIT >> FINE : 1 relevant test for createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:37 PM PIT >> FINE : replaced class with mutant in 27 ms
+stderr  : 10:06:37 PM PIT >> FINE : Running 1 units
+10:06:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[54], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[55], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : processed mutation in 97 ms.
+stderr  : 10:06:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoNegativeValues, methodDesc=()V], indexes=[23], mutator=org.pitest.mutationtstderr  : est.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=139, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=stderr  : NORMAL]
+stderr  : 10:06:37 PM PIT >> FINE : mutating method calculateColumnTotalForTwoNegativeValues
+stderr  : 10:06:37 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForTwoNegativeValues
+stderr  : 10:06:37 PM PIT >> FINE : replaced class with mutant in 26 ms
+stderr  : 10:06:37 PM PIT >> FINE : Running 1 units
+10:06:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[55], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoNegativeValues, methodDesc=()V], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.Vstderr  : oidMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : processed mutation in 92 ms.
+stderr  : 10:06:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[122], mutator=org.pitest.mutatistderr  : ontest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=19, lineNumber=556, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poistderr  : son=NORMAL]
+stderr  : 10:06:37 PM PIT >> FINE : mutating method createNumberArray2DForSingleRowDoubleArray
+stderr  : 10:06:37 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleRowDoubleArray
+10:06:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoNegativeValues, methodDesc=()V], indexes=[23], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : replaced class with mutant in 30 ms
+stderr  : 10:06:37 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[122], mutator=org.pitest.mutationtest.engine.gregor.mutatorstderr  : s.VoidMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : processed mutation in 58 ms.
+stderr  : 10:06:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=getCumulativePercentagesForSingleNullValues, methodDesc=()V], indexes=[24], mutator=org.pitest.mutatistderr  : ontest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=5, lineNumber=769, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poisstderr  : on=NORMAL]
+stderr  : 10:06:37 PM PIT >> FINE : mutating method getCumulativePercentagesForSingleNullValues
+stderr  : 10:06:37 PM PIT >> FINE : 1 relevant test for getCumulativePercentagesForSingleNullValues
+10:06:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[122], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : replaced class with mutant in 25 ms
+stderr  : 10:06:37 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=getCumulativePercentagesForSingleNullValues, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutatorstderr  : s.VoidMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : processed mutation in 119 ms.
+stderr  : 10:06:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[110], mutator=org.pitest.mutationteststderr  : .engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=23, lineNumber=654, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NOstderr  : RMAL]
+stderr  : 10:06:37 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:37 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+stderr  : 10:06:37 PM PIT >> FINE : replaced class with mutant in 25 ms
+stderr  : 10:06:37 PM PIT >> FINE : Running 1 units
+10:06:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=getCumulativePercentagesForSingleNullValues, methodDesc=()V], indexes=[24], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[110], mutator=org.pitest.mutationtest.engine.gregor.mutators.Voidstderr  : MethodCallMutator] detected = SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : processed mutation in 129 ms.
+stderr  : 10:06:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoNegativePositiveValues, methodDesc=()V], indexes=[27], mutator=org.pitest.mstderr  : utationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=159, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false,stderr  :  poison=NORMAL]
+stderr  : 10:06:37 PM PIT >> FINE : mutating method calculateColumnTotalForTwoNegativePositiveValues
+stderr  : 10:06:37 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForTwoNegativePositiveValues
+10:06:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[110], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : replaced class with mutant in 40 ms
+stderr  : 10:06:37 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:37 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoNegativePositiveValues, methodDesc=()V], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mustderr  : tators.VoidMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : processed mutation in 77 ms.
+stderr  : 10:06:37 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoZeroValues, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=222, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMstderr  : AL]
+stderr  : 10:06:37 PM PIT >> FINE : mutating method calculateColumnTotalForTwoZeroValues
+stderr  : 10:06:37 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForTwoZeroValues
+10:06:37 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoNegativePositiveValues, methodDesc=()V], indexes=[27], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:37 PM PIT >> FINE : replaced class with mutant in 42 ms
+stderr  : 10:06:37 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoZeroValues, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+10:06:38 PM PIT >> FINE : processed mutation in 101 ms.
+stderr  : 10:06:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[125], mutator=org.pitest.mutationteststderr  : .engine.gregor.mutators.IncrementsMutator], filename=DataUtilitiesTests.java, block=17, lineNumber=618, description=Changed increment from 1 to -1, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:38 PM PIT >> FINE : mutating method createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:38 PM PIT >> FINE : 1 relevant test for createNumberArray2DForMxNDoubleArray
+10:06:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForTwoZeroValues, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:38 PM PIT >> FINE : replaced class with mutant in 34 ms
+stderr  : 10:06:38 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[125], mutator=org.pitest.mutationtest.engine.gregor.mutators.Incrstderr  : ementsMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+10:06:38 PM PIT >> FINE : processed mutation in 74 ms.
+stderr  : 10:06:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForNullValue, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gstderr  : regor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=443, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:38 PM PIT >> FINE : mutating method calculateRowTotalForNullValue
+stderr  : 10:06:38 PM PIT >> FINE : 1 relevant test for calculateRowTotalForNullValue
+10:06:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[125], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:38 PM PIT >> FINE : replaced class with mutant in 43 ms
+stderr  : 10:06:38 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+10:06:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForNullValue, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForNullValue, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCalstderr  : lMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:38 PM PIT >> FINE : processed mutation in 100 ms.
+stderr  : 10:06:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForSingleValue, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.enginestderr  : .gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=425, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:38 PM PIT >> FINE : mutating method calculateRowTotalForSingleValue
+stderr  : 10:06:38 PM PIT >> FINE : 1 relevant test for calculateRowTotalForSingleValue
+stderr  : 10:06:38 PM PIT >> FINE : replaced class with mutant in 45 ms
+stderr  : 10:06:38 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+10:06:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForSingleValue, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForSingleValue, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCstderr  : allMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:38 PM PIT >> FINE : processed mutation in 104 ms.
+stderr  : 10:06:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[150], mutator=org.pitest.mutstderr  : ationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=25, lineNumber=590, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, stderr  : poison=NORMAL]
+stderr  : 10:06:38 PM PIT >> FINE : mutating method createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:38 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:38 PM PIT >> FINE : replaced class with mutant in 46 ms
+stderr  : 10:06:38 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[150], mutator=org.pitest.mutationtest.engine.gregor.mutastderr  : tors.VoidMethodCallMutator] detected = SURVIVED
+stderr  : 10:06:38 PM PIT >> FINE : processed mutation in 95 ms.
+stderr  : 10:06:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForNullValue, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engistderr  : ne.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=258, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 
+stderr  : 10:06:38 PM PIT >> FINE : mutating method calculateColumnTotalForNullValue
+stderr  : 10:06:38 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForNullValue
+10:06:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[150], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:38 PM PIT >> FINE : replaced class with mutant in 47 ms
+stderr  : 10:06:38 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForNullValue, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethostderr  : dCallMutator] detected = SURVIVED
+10:06:38 PM PIT >> FINE : processed mutation in 201 ms.
+stderr  : 10:06:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoZeroValues, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engstderr  : ine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=419, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]stderr  : 
+stderr  : 10:06:38 PM PIT >> FINE : mutating method calculateRowTotalForTwoZeroValues
+stderr  : 10:06:38 PM PIT >> FINE : 1 relevant test for calculateRowTotalForTwoZeroValues
+10:06:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForNullValue, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:38 PM PIT >> FINE : replaced class with mutant in 48 ms
+stderr  : 10:06:38 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+10:06:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoZeroValues, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoZeroValues, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethstderr  : odCallMutator] detected = SURVIVED
+10:06:38 PM PIT >> FINE : processed mutation in 96 ms.
+stderr  : 10:06:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[102], mutator=org.pitest.mutationteststderr  : .engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=21, lineNumber=653, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NOstderr  : RMAL]
+stderr  : 10:06:38 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:38 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+stderr  : 10:06:38 PM PIT >> FINE : replaced class with mutant in 45 ms
+stderr  : 10:06:38 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+10:06:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[102], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[102], mutator=org.pitest.mutationtest.engine.gregor.mutators.Voidstderr  : MethodCallMutator] detected = SURVIVED
+10:06:38 PM PIT >> FINE : processed mutation in 115 ms.
+stderr  : 10:06:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForPrecision, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engistderr  : ne.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=294, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 
+stderr  : 10:06:38 PM PIT >> FINE : mutating method calculateColumnTotalForPrecision
+stderr  : 10:06:38 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForPrecision
+stderr  : 10:06:38 PM PIT >> FINE : replaced class with mutant in 32 ms
+stderr  : 10:06:38 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:38 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForPrecision, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethostderr  : dCallMutator] detected = SURVIVED
+10:06:38 PM PIT >> FINE : processed mutation in 180 ms.
+stderr  : 10:06:38 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[142], mutator=org.pitest.mutatistderr  : ontest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=23, lineNumber=558, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poistderr  : son=NORMAL]
+stderr  : 10:06:38 PM PIT >> FINE : mutating method createNumberArray2DForSingleRowDoubleArray
+stderr  : 10:06:38 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleRowDoubleArray
+10:06:38 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForPrecision, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 37 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:39 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[142], mutator=org.pitest.mutationtest.engine.gregor.mutatorstderr  : s.VoidMethodCallMutator] detected = SURVIVED
+10:06:39 PM PIT >> FINE : processed mutation in 68 ms.
+stderr  : 10:06:39 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[94], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=19, lineNumber=652, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORstderr  : MAL]
+stderr  : 10:06:39 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:39 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+10:06:39 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleRowDoubleArray, methodDesc=()V], indexes=[142], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 35 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:39 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[94], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+10:06:39 PM PIT >> FINE : processed mutation in 88 ms.
+stderr  : 10:06:39 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoNegativePositiveValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutatstderr  : iontest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=345, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poisonstderr  : =NORMAL]
+stderr  : 10:06:39 PM PIT >> FINE : mutating method calculateRowTotalForTwoNegativePositiveValues
+stderr  : 10:06:39 PM PIT >> FINE : 1 relevant test for calculateRowTotalForTwoNegativePositiveValues
+10:06:39 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[94], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 40 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:39 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoNegativePositiveValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutatostderr  : rs.VoidMethodCallMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:39 PM PIT >> FINE : processed mutation in 164 ms.
+stderr  : 10:06:39 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=getCumulativePercentagesForFourPositiveValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutatstderr  : iontest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=699, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poisonstderr  : =NORMAL]
+stderr  : 10:06:39 PM PIT >> FINE : mutating method getCumulativePercentagesForFourPositiveValues
+stderr  : 10:06:39 PM PIT >> FINE : 1 relevant test for getCumulativePercentagesForFourPositiveValues
+10:06:39 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoNegativePositiveValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 33 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:39 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=getCumulativePercentagesForFourPositiveValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutatostderr  : rs.VoidMethodCallMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+10:06:39 PM PIT >> FINE : processed mutation in 73 ms.
+stderr  : 10:06:39 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[170], mutator=org.pitest.mutstderr  : ationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=29, lineNumber=592, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, stderr  : poison=NORMAL]
+10:06:39 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=getCumulativePercentagesForFourPositiveValues, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:39 PM PIT >> FINE : mutating method createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:39 PM PIT >> FINE : 1 relevant test for createNumberArray2DForSingleColumnDoubleArray
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 35 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:39 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[170], mutator=org.pitest.mutationtest.engine.gregor.mutastderr  : tors.VoidMethodCallMutator] detected = SURVIVED
+10:06:39 PM PIT >> FINE : processed mutation in 98 ms.
+stderr  : 10:06:39 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[86], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=17, lineNumber=651, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORstderr  : MAL]
+10:06:39 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForSingleColumnDoubleArray, methodDesc=()V], indexes=[170], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:39 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:39 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 46 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+stderr  : 10:06:39 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[86], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+10:06:39 PM PIT >> FINE : processed mutation in 166 ms.
+stderr  : 10:06:39 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[21], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=2, lineNumber=637, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMstderr  : AL]
+10:06:39 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[86], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:39 PM PIT >> FINE : mutating method createNumberArrayForMultiDoubleArray
+stderr  : 10:06:39 PM PIT >> FINE : 1 relevant test for createNumberArrayForMultiDoubleArray
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 51 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+10:06:39 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:39 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArrayForMultiDoubleArray, methodDesc=()V], indexes=[21], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMstderr  : ethodCallMutator] detected = SURVIVED
+10:06:39 PM PIT >> FINE : processed mutation in 89 ms.
+stderr  : 10:06:39 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForPrecision, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gstderr  : regor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=477, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:39 PM PIT >> FINE : mutating method calculateRowTotalForPrecision
+stderr  : 10:06:39 PM PIT >> FINE : 1 relevant test for calculateRowTotalForPrecision
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 48 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+10:06:39 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForPrecision, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:39 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForPrecision, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCalstderr  : lMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:39 PM PIT >> FINE : processed mutation in 93 ms.
+stderr  : 10:06:39 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=getCumulativePercentagesForAllRowsAreZero, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtstderr  : est.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=1, lineNumber=860, description=removed call to org/jmock/Mockery::checking, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORstderr  : MAL]
+stderr  : 10:06:39 PM PIT >> FINE : mutating method getCumulativePercentagesForAllRowsAreZero
+stderr  : 10:06:39 PM PIT >> FINE : 1 relevant test for getCumulativePercentagesForAllRowsAreZero
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 47 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:39 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=getCumulativePercentagesForAllRowsAreZero, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.Vstderr  : oidMethodCallMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:39 PM PIT >> FINE : processed mutation in 108 ms.
+stderr  : 10:06:39 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForSingleValue, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.enstderr  : gine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=240, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMALstderr  : ]
+10:06:39 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=getCumulativePercentagesForAllRowsAreZero, methodDesc=()V], indexes=[9], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+stderr  : 10:06:39 PM PIT >> FINE : mutating method calculateColumnTotalForSingleValue
+stderr  : 10:06:39 PM PIT >> FINE : 1 relevant test for calculateColumnTotalForSingleValue
+stderr  : 10:06:39 PM PIT >> FINE : replaced class with mutant in 36 ms
+stderr  : 10:06:39 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.stdout  : 
+stderr  : 10:06:40 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForSingleValue, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMetstderr  : hodCallMutator] detected = SURVIVED
+stderr  : 10:06:40 PM PIT >> FINE : processed mutation in 98 ms.
+stderr  : 10:06:40 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoOppositePolaritySameMagnitudeValues, methodDesc=()V], indexes=[22], mutator=orstderr  : g.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator], filename=DataUtilitiesTests.java, block=3, lineNumber=399, description=removed call to org/junit/Assert::assertEquals, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlstderr  : ock=false, poison=NORMAL]
+10:06:40 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateColumnTotalForSingleValue, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:40 PM PIT >> FINE : mutating method calculateRowTotalForTwoOppositePolaritySameMagnitudeValues
+stderr  : 10:06:40 PM PIT >> FINE : 1 relevant test for calculateRowTotalForTwoOppositePolaritySameMagnitudeValues
+stderr  : 10:06:40 PM PIT >> FINE : replaced class with mutant in 37 ms
+stderr  : 10:06:40 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+10:06:40 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoOppositePolaritySameMagnitudeValues, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator] SURVIVED
+stderr  : 10:06:40 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=calculateRowTotalForTwoOppositePolaritySameMagnitudeValues, methodDesc=()V], indexes=[22], mutator=org.pitest.mutationtest.enginestderr  : .gregor.mutators.VoidMethodCallMutator] detected = SURVIVED
+10:06:40 PM PIT >> FINE : processed mutation in 78 ms.
+stderr  : 10:06:40 PM PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[46], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.ConditionalsBoundaryMutator], filename=DataUtilitiesTests.java, block=6, lineNumber=607, description=changed conditional boundary, testsInOrder=[org.jfree.data.test.DataUtilitiesTests], isInFinallyBlock=false, poison=NORMAL]
+stderr  : 10:06:40 PM PIT >> FINE : mutating method createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:40 PM PIT >> FINE : 1 relevant test for createNumberArray2DForMxNDoubleArray
+stderr  : 10:06:40 PM PIT >> FINE : replaced class with mutant in 35 ms
+stderr  : 10:06:40 PM PIT >> FINE : Running 1 units
+stdout  : The test of the functions in the class DataUtilities has been started.
+10:06:40 PM PIT >> FINE : MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] KILLED by [org.jfree.data.test.DataUtilitiesTests]
+10:06:40 PM PIT >> FINE : Exit code was - OK
+10:06:40 PM PIT >> FINE : Minion exited ok
+stderr  : 10:06:40 PM PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=org.jfree.data.test.DataUtilitiesTests, method=createNumberArray2DForMxNDoubleArray, methodDesc=()V], indexes=[46], mutator=org.pitest.mutationtest.engine.gregor.mutators.Condistderr  : tionalsBoundaryMutator] detected = KILLED by [org.jfree.data.test.DataUtilitiesTests]
+10:06:40 PM PIT >> FINE : processed mutation in 72 ms.
+10:07:18 PM PIT >> INFO : Completed in 119 seconds
+================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator
+>> Generated 2469 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2469 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsMutator
+>> Generated 336 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 336 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 1951 Killed 15 (1%)
+> KILLED 15 SURVIVED 1 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 1935 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator
+>> Generated 469 Killed 5 (1%)
+> KILLED 5 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 464 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator
+>> Generated 8593 Killed 29 (0%)
+> KILLED 29 SURVIVED 107 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 8457 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator
+>> Generated 2515 Killed 6 (0%)
+> KILLED 6 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2509 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.InvertNegsMutator
+>> Generated 130 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 130 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.MathMutator
+>> Generated 5601 Killed 5 (0%)
+> KILLED 5 SURVIVED 5 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 5591 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator
+>> Generated 1102 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 1102 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 10599 Killed 16 (0%)
+> KILLED 16 SURVIVED 6 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 10577 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator
+>> Generated 1416 Killed 3 (0%)
+> KILLED 3 SURVIVED 1 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 1412 
+--------------------------------------------------------------------------------
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : 1 seconds
+> build mutation tests : 55 seconds
+> run mutation analysis : 1 minutes and 0 seconds
+--------------------------------------------------------------------------------
+> Total  : 1 minutes and 57 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 35181 mutations Killed 79 (0%)
+>> Ran 5186 tests (0.15 tests per mutation)
